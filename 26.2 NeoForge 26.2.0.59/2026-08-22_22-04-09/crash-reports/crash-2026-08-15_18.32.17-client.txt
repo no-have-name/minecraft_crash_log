@@ -1,0 +1,128 @@
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 2026-08-15 18:32:18
+Description: Initializing game
+
+java.lang.NullPointerException: Cannot invoke "org.lwjgl.glfw.GLFWWindowSizeCallback.close()" because the return value of "org.lwjgl.glfw.GLFW.glfwSetWindowSizeCallback(long, org.lwjgl.glfw.GLFWWindowSizeCallbackI)" is null
+	at net.neoforged.fml.earlydisplay.DisplayWindow.takeOverGlfwWindow(DisplayWindow.java:500) ~[earlydisplay-11.0.16.jar:11.0] {}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.createGlfwWindow(Window.java:147) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.createWindow(Window.java:164) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.<init>(Window.java:104) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.client.Minecraft.<init>(Minecraft.java:483) [minecraft-client-patched-26.2.0.59.jar:?] {neoforge:access_transformer,neoforge:access_transformer,neoforge:mixin[APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,APP:sodium-common.mixins.json:features.gui.hooks.debug.MinecraftRenderFrameMixin from mod sodium,APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,APP:immediatelyfast-common.mixins.json:core.MixinMinecraft from mod immediatelyfast]}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.client.main.Main.main(Main.java:280) [minecraft-client-patched-26.2.0.59.jar:?] {}
+	at net.neoforged.fml.startup.Client.main(Client.java:19) [loader-11.0.16.jar:11.0] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.neoforged.fml.earlydisplay.DisplayWindow.takeOverGlfwWindow(DisplayWindow.java:500) ~[earlydisplay-11.0.16.jar:11.0] {}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.createGlfwWindow(Window.java:147) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.createWindow(Window.java:164) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/com.mojang.blaze3d.platform.Window.<init>(Window.java:104) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:mixin[APP:sodium-common.mixins.json:workarounds.context_creation.WindowMixin from mod sodium]}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.client.Minecraft.<init>(Minecraft.java:483) ~[minecraft-client-patched-26.2.0.59.jar:?] {neoforge:access_transformer,neoforge:access_transformer,neoforge:mixin[APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,APP:sodium-common.mixins.json:features.gui.hooks.debug.MinecraftRenderFrameMixin from mod sodium,APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,APP:immediatelyfast-common.mixins.json:core.MixinMinecraft from mod immediatelyfast]}
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at TRANSFORMER/minecraft@26.2/net.minecraft.client.main.Main.main(Main.java:280) [minecraft-client-patched-26.2.0.59.jar:?] {}
+	at net.neoforged.fml.startup.Client.main(Client.java:19) [loader-11.0.16.jar:11.0] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 26.2
+	Minecraft Version ID: 26.2
+	Operating System: Linux (aarch64) version Android-16
+	Java Version: 25.0.3-internal, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3905020928 bytes (3724 MiB) / 4294967296 bytes (4096 MiB) up to 4294967296 bytes (4096 MiB)
+	Memory (heap): init: 4096MiB, used: 368MiB, committed: 4096MiB, max: 4096MiB
+	Memory (non-head): init: 007MiB, used: 146MiB, committed: 149MiB, max: 000MiB
+	CPUs: 8
+	Processor Vendor: ARM
+	Processor Name: 
+	Identifier: 0x41 Family 8 Model 0xd4d Stepping r1p2
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 3
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 17916.11
+	Virtual memory used (MiB): 10145.30
+	Swap memory total (MiB): 12288.00
+	Swap memory used (MiB): 3095.23
+	Space in storage for jna.tmpdir (MiB): available: 33798.53, total: 229262.58
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 33798.53, total: 229262.58
+	Space in storage for io.netty.native.workdir (MiB): available: 33798.53, total: 229262.58
+	Space in storage for java.io.tmpdir (MiB): available: 33798.53, total: 229262.58
+	Space in storage for workdir (MiB): available: 33798.53, total: 229262.58
+	Operating System Version: Toybox Unknown unknown (unknown)
+	Process Elevated: false
+	Process Loads: Uptime: 0s, user: 49s (4946000.00%), kernel: 8s (775000.00%), total: 57s (5721000.00%)
+	Process Virtual Size (MiB): 22651.82
+	Process Resident Size (MiB): 1935.72
+	JVM Flags: 4 total; -Xms4096M -Xmx4096M -XX:ActiveProcessorCount=8 -Xbootclasspath/a:/data/user/0/com.movtery.zalithlauncher.v2/files/components/caciocavallo17/cacio-agent.jar:/data/user/0/com.movtery.zalithlauncher.v2/files/components/caciocavallo17/cacio-shared-1.19.1-SNAPSHOT.jar:/data/user/0/com.movtery.zalithlauncher.v2/files/components/caciocavallo17/cacio-tta-1.19.1-SNAPSHOT.jar
+	Debug Flags: 0 total; 
+	Launched Version: 26.2 NeoForge 26.2.0.59
+	Launcher name: Zalith Launcher
+	Backend library: LWJGL version 3.3.6-snapshot
+	Window size: <not initialized>
+	Surface Info: <no surface>
+	GFLW Platform: x11
+	Graphics Device: <none>
+	GL debug messages: <no renderer available>
+	Is Modded: Definitely; Client brand changed to 'neoforge'
+	Universe: 404
+	Type: Client
+	Locale: zh_CN
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 8x 
+	Class Processors: 
+		00.00%: neoforge:computing_frames (marker)
+		00.00%: neoforge:runtime_enum_extender
+		04.85%: neoforge:access_transformer
+		02.71%: neoforge:mixin
+		00.00%: neoforge:simple_processors_default (marker)
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.biome.biome
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.block.flowerpotblock
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.levelgen.structure.structure
+		00.32%: neoforge.coremods:method_redirector
+	Mod List: 
+		ImmediatelyFast-NeoForge-1.16.2+26.2.jar          |ImmediatelyFast               |immediatelyfast               |1.16.2+26.2         |Manifest: 070b814b5e082c357bc33db0402ff91f015baad4c888c5b70cb9ebd920737fe3
+		lithium-neoforge-0.25.3+mc26.2.jar                |Lithium                       |lithium                       |0.25.3              |Manifest: 7a080146f5c428e3a4a34cc3526c57c71cace5e962019081cb1d45c9d55dec7a
+		minecraft-client-patched-26.2.0.59.jar            |Minecraft                     |minecraft                     |26.2                |Manifest: 349045ad85679fee0d37a1a02d04be34ff682651b6805f32e71652defd1fb5d7
+		neoforge-26.2.0.59-universal.jar                  |NeoForge                      |neoforge                      |26.2.0.59           |Manifest: a924b85bdc145c04078ac2b9b2d2f271efb995a96f09830a12f4cffb23ee55d2
+		net.caffeinemc.sodium-neoforge-0.9.2-alpha.4+mc26.|Sodium                        |sodium                        |0.9.2-alpha.4+mc26.2|Manifest: 10c6a3e76bb4e00e38fd6e4502beaf63698fa50b990f017e371405505696582c
+	Crash Report UUID: 2d4f4d4a-6f42-4ecd-bd8b-d2d68a3e9119
+	FML: 11.0.16
+	NeoForge: 26.2.0.59
+	Class Processors: 
+		00.00%: neoforge:computing_frames (marker)
+		00.00%: neoforge:runtime_enum_extender
+		04.85%: neoforge:access_transformer
+		02.71%: neoforge:mixin
+		00.00%: neoforge:simple_processors_default (marker)
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.biome.biome
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.block.flowerpotblock
+		00.02%: neoforge.coremods:field_to_getter.net.minecraft.world.level.levelgen.structure.structure
+		00.32%: neoforge.coremods:method_redirector
+	Mod List: 
+		ImmediatelyFast-NeoForge-1.16.2+26.2.jar          |ImmediatelyFast               |immediatelyfast               |1.16.2+26.2         |Manifest: 070b814b5e082c357bc33db0402ff91f015baad4c888c5b70cb9ebd920737fe3
+		lithium-neoforge-0.25.3+mc26.2.jar                |Lithium                       |lithium                       |0.25.3              |Manifest: 7a080146f5c428e3a4a34cc3526c57c71cace5e962019081cb1d45c9d55dec7a
+		minecraft-client-patched-26.2.0.59.jar            |Minecraft                     |minecraft                     |26.2                |Manifest: 349045ad85679fee0d37a1a02d04be34ff682651b6805f32e71652defd1fb5d7
+		neoforge-26.2.0.59-universal.jar                  |NeoForge                      |neoforge                      |26.2.0.59           |Manifest: a924b85bdc145c04078ac2b9b2d2f271efb995a96f09830a12f4cffb23ee55d2
+		net.caffeinemc.sodium-neoforge-0.9.2-alpha.4+mc26.|Sodium                        |sodium                        |0.9.2-alpha.4+mc26.2|Manifest: 10c6a3e76bb4e00e38fd6e4502beaf63698fa50b990f017e371405505696582c
+	Crash Report UUID: 6e0b658b-8aa1-4ebe-8ddb-23ca1dc2f334
+	FML: 11.0.16
+	NeoForge: 26.2.0.59
