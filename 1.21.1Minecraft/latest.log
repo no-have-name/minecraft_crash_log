@@ -1,0 +1,1167 @@
+[13:23:04] [main/INFO]: ModLauncher running: args [--username, Trail_Akivili, --version, 1.21.1 NeoForge, --gameDir, D:\Minecraft\.minecraft, --assetsDir, D:\Minecraft\.minecraft\assets, --assetIndex, 17, --uuid, 050f97b8d0c942c5a3fc65e7017d8894, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.16.4, --width, 1920, --height, 1080, --fml.neoForgeVersion, 21.1.244, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[13:23:04] [main/INFO]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12+7-LTS-205
+[13:23:04] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13:23:05] [main/INFO]: Searching for graphics cards...
+[13:23:05] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce GTX 960', adapterType=0x0000031B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_0afec3f2050014a0\nvoglv64.dll', openglIcdVersion=32.0.15.6094}
+[13:23:05] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[13:23:05] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[13:23:05] [main/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[13:23:05] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[13:23:05] [main/INFO]: Trying GL version 4.6
+[13:23:06] [main/INFO]: Requested GL version 4.6 got version 4.6
+[13:23:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23175!/ Service=ModLauncher Env=CLIENT
+[13:23:06] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 560.94, NVIDIA Corporation
+[13:23:06] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.244:client]
+[13:23:06] [main/INFO]: Found mod file "neoforge-21.1.244-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[D:\Minecraft\.minecraft\libraries\net\neoforged\neoforge\21.1.244\neoforge-21.1.244-universal.jar]], reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "net.caffeinemc.sodium-neoforge-0.8.13-beta.2+mc1.21.1-mod.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@74f7d1d2, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@74f7d1d2, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@74f7d1d2, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@74f7d1d2, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@74f7d1d2, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[Reese的钠视频界面] reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[一键背包整理Next] InventoryProfilesNext-neoforge-1.21-2.1.4.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[动态 FPS] dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[机械动力：电气时代] create-new-age-1.2.0+neoforge-mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[机械动力：附魔工业] create-enchantment-industry-2.5.3b.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[机械动力：龙+] CreateDragonsPlus-1.11.8b.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[沉浸工程] ImmersiveEngineering-1.21.1-12.4.2-194.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[等价交换重制版] ProjectE-1.21.1-PE1.1.0.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[苹果皮] appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[钠 · 扩展] sodium-extra-neoforge-0.9.3+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[钠／Embeddium：动态光源] sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[铁氧体磁芯] ferritecore-7.0.3-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "[鼠标手势] MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "appliedenergistics2-19.2.17.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "colorwheel-neoforge-1.2.9+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "create_connected-1.3.2-mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "createbetterfps-1.21.1-1.1.4.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "flerovium-neoforge-1.21.1-1.1.2-all.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "framework-neoforge-1.21.1-0.13.11.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "gl4es-stencil-fix-neoforge-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "guideme-21.1.17.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "irisveil-0.3.0.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "Jade-1.21.1-NeoForge-15.10.6.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "jei-1.21.1-neoforge-19.43.0.395.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found library file "kotlinforforge-5.12.0-all.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found library file "KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "lanserverproperties-1.13.2-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "libIPN-neoforge-1.21-6.3.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "mekanism_ponders-1.0.3-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "MekanismGenerators-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "sable-neoforge-1.21.1-2.0.3.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "sclp-neoforge-3.17.8.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "tree-vein-miner-2.0.0.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "trinketsandbaubles-1.2.3.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:07] [main/INFO]: Found mod file "veinminer-neoforge-2.11.2+1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\.minecraft\mods}, reader: mod manifest]
+[13:23:09] [main/WARN]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\kotlinforforge-5.12.0-all.jar and Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar. Using Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\kotlinforforge-5.12.0-all.jar
+[13:23:09] [main/WARN]: Attempted to select two dependency jars from JarJar which have the same identification: Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar and Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\kotlinforforge-5.12.0-all.jar. Using Nested Mod File  in Mod File: D:\Minecraft\.minecraft\mods\KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar
+[13:23:09] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: 
+[13:23:09] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: 
+[13:23:09] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: 
+[13:23:09] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: 
+[13:23:09] [main/INFO]: Found 38 dependencies adding them to mods collection
+[13:23:09] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.244-universal.jar, locator: jarinjar, reader: mod manifest]
+[13:23:09] [main/INFO]: Found library file "BlockModelSplitter-2.0.1.jar" [parent: [沉浸工程] ImmersiveEngineering-1.21.1-12.4.2-194.jar, locator: jarinjar, reader: mod manifest]
+[13:23:09] [main/INFO]: Found library file "kotlinx-datetime-jvm-0.7.1-0.6.x-compat.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:09] [main/INFO]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.3.jar" [parent: sable-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[13:23:09] [main/INFO]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: mekanism_ponders-1.0.3-1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.244.jar" [parent: neoforge-21.1.244-universal.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "greenlight-api-0.1.0+mc1.21.10.jar" [parent: [钠 · 扩展] sodium-extra-neoforge-0.9.3+mc1.21.1.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "thedarkcolour.kfflang-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found gamelibrary file "thedarkcolour.kfflib-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "glsl-transformer-3.0.0-pre3.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "thedarkcolour.kffmod-5.12.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlinx-serialization-cbor-jvm-1.9.0.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "kotlin-stdlib-2.4.10.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "kotlin-reflect-2.4.10.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlinx-coroutines-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "kotlinx-io-bytestring-jvm-0.8.0.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "veil-neoforge-1.21.1-4.1.4.jar" [parent: sable-neoforge-1.21.1-2.0.3.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlinx-coroutines-jdk8-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: [机械动力：龙+] CreateDragonsPlus-1.11.8b.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlin-stdlib-jdk7-2.4.10.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "kotlin-stdlib-jdk8-2.4.10.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "battery-2.0.0.jar" [parent: [动态 FPS] dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found gamelibrary file "DualCodecs-0.1.2.jar" [parent: [沉浸工程] ImmersiveEngineering-1.21.1-12.4.2-194.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlinx-serialization-core-jvm-1.11.0.jar" [parent: kotlinforforge-5.12.0-all.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "Reflect-1.6.2.jar" [parent: ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "kotlinx-io-core-jvm-0.8.0.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: Found library file "atomicfu-jvm-0.29.0.jar" [parent: KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar, locator: jarinjar]
+[13:23:10] [main/INFO]: Found mod file "esl-neoforge-1.21.1-1.0.3+neoforge-mc1.21.1.jar" [parent: [机械动力：电气时代] create-new-age-1.2.0+neoforge-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13:23:10] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AppleSkin 3.0.9+mc1.21 (appleskin)
+		Applied Energistics 2 19.2.17 (ae2)
+		Architectury 13.0.11 (architectury)
+		Colorwheel 1.2.9+mc1.21.1 (colorwheel)
+		conditional mixin 0.6.4 (conditional_mixin)
+		CosmeticArmorReworkedForked 1.21.1-0.0.4 (cosmeticarmorreworkedforked)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.0 (aeronautics)
+		Create Aeronautics 1.3.0 (aeronautics_bundled)
+		Create Offroad 1.3.0 (offroad)
+		Create Simulated 1.3.0 (simulated)
+		Create: Connected 1.3.2-mc1.21.1 (create_connected)
+		Create: Dragons Plus 1.11.8b (create_dragons_plus)
+		Create: Enchantment Industry 2.5.3b (create_enchantment_industry)
+		Create: New Age 1.2.0+mc1.21.1 (create_new_age)
+		CreateBetterFps 1.1.4 (createbetterfps)
+		Curios API 9.5.1+1.21.1 (curios)
+		Dynamic FPS 3.11.4 (dynamic_fps)
+		ESL 1.0.3 (esl)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flerovium 1.1.2 (flerovium)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Framework 0.13.11 (framework)
+		GL4ES Stencil Fix 1.0.0 (gl4esstencilfix)
+		GuideME 21.1.17 (guideme)
+		ImmediatelyFast 1.6.14+1.21.1 (immediatelyfast)
+		Immersive Engineering 12.4.2-194 (immersiveengineering)
+		Inventory Profiles Next 2.1.4 (inventoryprofilesnext)
+		Iris 1.8.14-beta.1+mc1.21.1 (iris)
+		Iris Veil Compat 0.3.0 (irisveil)
+		Jade 15.10.6+neoforge (jade)
+		Just Enough Items 19.43.0.395 (jei)
+		Kotlin For Forge 5.12.0 (kotlinforforge)
+		KotlinLangForge 2.12.2-k2.4.10-3.0+neoforge (klf)
+		Lan Server Properties 1.13.2 (lanserverproperties)
+		libIPN 6.3.1 (libipn)
+		Mekanism 10.7.19 (mekanism)
+		Mekanism: Generators 10.7.19 (mekanismgenerators)
+		Mekanism: Ponders 1.0.3-1.21.1 (mekanism_ponders)
+		Minecraft 1.21.1 (minecraft)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		NeoForge 21.1.244 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		ProjectE 1.1.0 (projecte)
+		Reese's Sodium Options 2.2.3+mc1.21.1 (reeses_sodium_options)
+		Sable 2.0.3 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Sodium 0.8.13-beta.2+mc1.21.1 (sodium)
+		Sodium Dynamic Lights 1.0.9 (sodiumdynamiclights)
+		Sodium Extra 0.9.3+mc1.21.1 (sodium_extra)
+		Sodium/Embeddium Chinese Localized Package 3.17.8 (sclp)
+		Tree Vein Miner 2.0.0 (mr_tree_veinminer)
+		Trinkets and Baubles Reforked 1.2.3 (trinketsandbaubles)
+		Veil 4.1.4 (veil)
+		Veinminer 2.11.2 (veinminer)
+[13:23:10] [main/ERROR]: Access transformer file accesstransformer.cfg provided by mod sodium_extra does not exist!
+[13:23:10] [main/INFO]: Loading coremod script-engine for [gl4esstencilfix]
+[13:23:13] [main/INFO]: Compatibility level set to JAVA_21
+[13:23:13] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1 NeoForge, --gameDir, D:\Minecraft\.minecraft, --assetsDir, D:\Minecraft\.minecraft\assets, --uuid, 050f97b8d0c942c5a3fc65e7017d8894, --username, Trail_Akivili, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.16.4, --width, 1920, --height, 1080]
+[13:23:14] [main/INFO]: Loaded configuration file for Sodium Extra: 36 options available, 0 override(s) found
+[13:23:14] [main/WARN]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'trinketsandbaubles.refmap.json' for trinketsandbaubles.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/INFO]: Loaded configuration file for Sodium: 45 options available, 1 override(s) found
+[13:23:14] [main/WARN]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'sclp.refmap.json' for sclp.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'ipnext.refmap.json' for mixins.ipnext.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'lsp.refmap.json' for lsp.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/WARN]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:23:14] [main/INFO]: Using Sodium renderer mixins
+[13:23:14] [main/INFO]: Using Sodium renderer mixins
+[13:23:16] [main/WARN]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[13:23:16] [main/WARN]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[13:23:16] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13:23:16] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13:23:16] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13:23:16] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[13:23:16] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[13:23:16] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[13:23:16] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/aocalc/AoCalculator (java.lang.ClassNotFoundException: net.fabricmc.fabric.impl.client.indigo.renderer.aocalc.AoCalculator)
+[13:23:16] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumOptionsGUI (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI)
+[13:23:16] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI was not found mixins.sodiumdynamiclights.json:sodium.SodiumOptionsGuiMixin from mod sodiumdynamiclights
+[13:23:16] [main/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[13:23:16] [main/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[13:23:16] [main/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[13:23:16] [main/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[13:23:16] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[13:23:17] [main/WARN]: Error loading class: com/simibubi/create/foundation/ponder/PonderWorld (java.lang.ClassNotFoundException: com.simibubi.create.foundation.ponder.PonderWorld)
+[13:23:17] [main/WARN]: Error loading class: org/embeddedt/embeddium/impl/util/PlatformUtil (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.util.PlatformUtil)
+[13:23:17] [main/WARN]: @Mixin target org.embeddedt.embeddium.impl.util.PlatformUtil was not found sclp.mixins.json:embeddium.MixinEmbeddiumPlatformUtil from mod sclp
+[13:23:17] [main/WARN]: Error loading class: org/embeddedt/embeddium/impl/gui/screen/PromptScreen (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.gui.screen.PromptScreen)
+[13:23:17] [main/WARN]: @Mixin target org.embeddedt.embeddium.impl.gui.screen.PromptScreen was not found sclp.mixins.json:embeddium.MixinScreenPrompt from mod sclp
+[13:23:17] [main/WARN]: Error loading class: org/embeddedt/embeddium/impl/gui/EmbeddiumVideoOptionsScreen (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.gui.EmbeddiumVideoOptionsScreen)
+[13:23:17] [main/WARN]: @Mixin target org.embeddedt.embeddium.impl.gui.EmbeddiumVideoOptionsScreen was not found sclp.mixins.json:embeddium.EmbeddiumOptionsGUIMixin from mod sclp
+[13:23:17] [main/WARN]: Error loading class: org/embeddedt/embeddium/api/options/control/ControlValueFormatter (java.lang.ClassNotFoundException: org.embeddedt.embeddium.api.options.control.ControlValueFormatter)
+[13:23:17] [main/WARN]: @Mixin target org.embeddedt.embeddium.api.options.control.ControlValueFormatter was not found sclp.mixins.json:embeddium.MixinControlValueFormatter from mod sclp
+[13:23:17] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/options/control/ControlValueFormatter (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.options.control.ControlValueFormatter)
+[13:23:17] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.options.control.ControlValueFormatter was not found sclp.mixins.json:sodium.MixinControlValueFormatter from mod sclp
+[13:23:17] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumOptionsGUI (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI)
+[13:23:17] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI was not found sclp.mixins.json:sodium.SodiumOptionsGUIMixin from mod sclp
+[13:23:17] [main/WARN]: Error loading class: org/embeddedt/embeddium/api/options/structure/OptionImpl (java.lang.ClassNotFoundException: org.embeddedt.embeddium.api.options.structure.OptionImpl)
+[13:23:17] [main/WARN]: @Mixin target org.embeddedt.embeddium.api.options.structure.OptionImpl was not found sclp.mixins.json:embeddium.MixinOptionImpl from mod sclp
+[13:23:17] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/options/OptionImpl (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.options.OptionImpl)
+[13:23:17] [main/WARN]: @Mixin target net.caffeinemc.mods.sodium.client.gui.options.OptionImpl was not found sclp.mixins.json:sodium.MixinOptionImpl from mod sclp
+[13:23:17] [main/WARN]: Error loading class: toni/sodiumoptionsapi/gui/TabHeaderWidget (java.lang.ClassNotFoundException: toni.sodiumoptionsapi.gui.TabHeaderWidget)
+[13:23:17] [main/WARN]: @Mixin target toni.sodiumoptionsapi.gui.TabHeaderWidget was not found sclp.mixins.json:sodium_options_api.MixinTabHeaderWidget from mod sclp
+[13:23:17] [main/WARN]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
+[13:23:17] [main/WARN]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev.isxander.controlify.virtualmouse.VirtualMouseHandler)
+[13:23:17] [main/WARN]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
+[13:23:17] [main/WARN]: Error loading class: de/maxhenkel/easyvillagers/blocks/tileentity/TraderTileentityBase (java.lang.ClassNotFoundException: de.maxhenkel.easyvillagers.blocks.tileentity.TraderTileentityBase)
+[13:23:17] [main/WARN]: @Mixin target de.maxhenkel.easyvillagers.blocks.tileentity.TraderTileentityBase was not found mixins.ipnext.json:MixinTraderTileEntityBase from mod inventoryprofilesnext
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[13:23:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[13:23:18] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[13:23:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[0110月2026 13:23:23.557] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 864 milliseconds
+[0110月2026 13:23:33.663] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23233!/assets/.mcassetsroot' uses unexpected schema
+[0110月2026 13:23:33.665] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23233!/data/.mcassetsroot' uses unexpected schema
+[0110月2026 13:23:33.754] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[0110月2026 13:23:33.773] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Trail_Akivili
+[0110月2026 13:23:34.121] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[0110月2026 13:23:34.285] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[0110月2026 13:23:34.286] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce GTX 960/PCIe/SSE2
+[0110月2026 13:23:34.286] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 560.94
+[0110月2026 13:23:34.292] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[0110月2026 13:23:34.292] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+[0110月2026 13:23:34.434] [ForkJoinPool.commonPool-worker-6/WARN] [Iris/]: [Iris Update Check] Failed to get update info!
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:448) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1505) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1420) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:190) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at TRANSFORMER/iris@1.8.14-beta.1+mc1.21.1/net.irisshaders.iris.UpdateChecker.lambda$checkForUpdates$0(UpdateChecker.java:89) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 25 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 25 more
+[0110月2026 13:23:34.478] [Render thread/INFO] [ImmediatelyFast/]: Initializing ImmediatelyFast 1.6.14+1.21.1 on NVIDIA GeForce GTX 960/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 560.94
+[0110月2026 13:23:34.479] [Render thread/INFO] [ImmediatelyFast/]: Found Iris 1.8.14-beta.1+mc1.21.1. Enabling compatibility.
+[0110月2026 13:23:34.947] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[0110月2026 13:23:34.951] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+[0110月2026 13:23:34.992] [Render thread/INFO] [Iris/]: Shaders are disabled because enableShaders is set to false in iris.properties
+[0110月2026 13:23:34.993] [Render thread/INFO] [colorwheel/]: Is OIT supported: true
+[0110月2026 13:23:35.581] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[0110月2026 13:23:35.615] [modloading-worker-0/INFO] [org.antarcticgardens.cna.CreateNewAge/]: Hello 1.21.1 Create!
+[0110月2026 13:23:35.851] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.244, for MC 1.21.1
+[0110月2026 13:23:36.691] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[0110月2026 13:23:36.712] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+[0110月2026 13:23:36.812] [modloading-worker-0/INFO] [de.miraculixx.veinminer.Veinminer/]: Veinminer Version: 2.11.2 (neoforge)
+[0110月2026 13:23:37.338] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[0110月2026 13:23:37.358] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 14.68 milliseconds
+[0110月2026 13:23:37.698] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[0110月2026 13:23:37.876] [SCLP Language loading thread-0/INFO] [SCLP/]: [SCLP]en_us language loaded
+[0110月2026 13:23:37.876] [SCLP Language loading thread-3/INFO] [SCLP/]: [SCLP]zh_hk language loaded
+[0110月2026 13:23:38.055] [SCLP Language loading thread-3/INFO] [SCLP/]: [SCLP]ja_jp language loaded
+[0110月2026 13:23:38.078] [SCLP Language loading thread-2/INFO] [SCLP/]: [SCLP]zh_tw language loaded
+[0110月2026 13:23:38.500] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[0110月2026 13:23:38.690] [SCLP Language loading thread-1/INFO] [SCLP/]: [SCLP]zh_cn have internet update
+[0110月2026 13:23:38.691] [SCLP Language loading thread-1/INFO] [SCLP/]: [SCLP]zh_cn language loaded
+[0110月2026 13:23:38.691] [modloading-worker-0/INFO] [SCLP/]: [SCLP] All language loaded
+[0110月2026 13:23:38.691] [modloading-worker-0/INFO] [SCLP/]: [SCLP] I18NLanguage init
+[0110月2026 13:23:38.692] [modloading-worker-0/INFO] [SCLP/]: [SCLP]
+      ____                                    ____ 
+     /   /                                   /   /   
+    /   /    ____________  ______  _____    /   /    ___ ___ 
+   /   /___ /  _  /  _  / /     / /  _  \  /   /___ |  //  /
+  /_______/ \____/\____/ /  /  /  \__   / /_______/  \    /
+ ___________________________________/  /______________/  /
+/___LoongLy Software 2026_______________________________/
+[SCLP]LoongLy:Sodium Chinese Localized Package init successful!(钠汉化包初始化成功！)
+
+[0110月2026 13:23:39.340] [DefaultDispatcher-worker-1/INFO] [de.miraculixx.veinminer.Veinminer/]: veinminer is up to date
+[0110月2026 13:23:39.479] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on create_connected.mixins.json:sequencedgearshift.SequencedGearshiftScreenMixin from mod create_connected::handler$bkk000$create_connected$updateParamsOfRow exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[0110月2026 13:23:39.633] [modloading-worker-0/INFO] [mixin/]: mekanism_ponders.mixins.json:AccessorAttributeStateActive from mod mekanism_ponders->@Accessor[FIELD_GETTER]::mekanism_ponder$getActiveProperty()Lnet/minecraft/world/level/block/state/properties/BooleanProperty; should be static as its target is
+[0110月2026 13:23:43.430] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[0110月2026 13:23:43.462] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[0110月2026 13:23:50.923] [modloading-sync-worker/INFO] [com.jinqinxixi.trinketsandbaubles.TrinketsandBaublesMod/]: Loaded Trinkets and Baubles config file trinketsandbaubles-common.toml
+[0110月2026 13:23:51.128] [Render thread/ERROR] [mixin/]: Write access detected to @Final field name:Lnet/minecraft/network/chat/Component; in sclp.mixins.json:sodium.MixinPageBuilderImpl from mod sclp::handler$boa000$sclp$injectSetName
+[0110月2026 13:23:51.381] [Render thread/INFO] [Veil/]: GL Debug supported
+[0110月2026 13:23:51.953] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class net.minecraft.client.Camera
+[0110月2026 13:23:51.975] [Render thread/INFO] [Iris/]: Hardware information:
+[0110月2026 13:23:51.975] [Render thread/INFO] [Iris/]: CPU: 16x Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz
+[0110月2026 13:23:51.976] [Render thread/INFO] [Iris/]: GPU: NVIDIA GeForce GTX 960/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 560.94)
+[0110月2026 13:23:51.976] [Render thread/INFO] [Iris/]: OS: Windows 11 (10.0)
+[0110月2026 13:23:53.636] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/gl4esstencilfix, mod/fabric_renderer_api_v1, mod/sodium_extra, mod/jei, mod/aeronautics, mod/aeronautics_bundled, mod/flerovium, mod/mekanism, mod/projecte, mod/neoforge, mod/fabric_block_view_api_v2, mod/trinketsandbaubles, mod/iris, mod/veil, mod/simulated, mod/guideme, mod/mekanismgenerators, mod/create_new_age, mod/mr_tree_veinminer, mod/createbetterfps, mod/sodiumdynamiclights, mod/offroad, mod/create_connected, mod/irisveil, mod/libipn, mod/fabric_api_base, mod/mousetweaks, mod/immersiveengineering, mod/jade, mod/ae2, mod/reeses_sodium_options, mod/kotlinforforge, mod/curios, mod/sablecompanion, mod/veinminer, mod/sclp, mod/immediatelyfast, mod/inventoryprofilesnext, mod/architectury, mod/cosmeticarmorreworkedforked, mod/appleskin, mod/ferritecore, mod/conditional_mixin, mod/lanserverproperties, mod/dynamic_fps, mod/fabric_rendering_data_attachment_v1, mod/framework, mod/colorwheel, mod/flywheel, mod/ponder, mod/create, mod/create_dragons_plus, mod/sable, mod/mekanism_ponders, mod/create_enchantment_industry, mod/esl
+[0110月2026 13:23:53.686] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
+[0110月2026 13:23:53.711] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[0110月2026 13:23:53.741] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[0110月2026 13:23:53.762] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Could not load contributor+special revolver list.
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:448) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1505) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1420) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:190) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at TRANSFORMER/immersiveengineering@12.4.2-194/blusunrize.immersiveengineering.ImmersiveEngineering$ThreadContributorSpecialsDownloader.run(ImmersiveEngineering.java:329) [%5B沉浸工程%5D%20ImmersiveEngineering-1.21.1-12.4.2-194.jar%23246!/:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 18 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 18 more
+[0110月2026 13:23:53.823] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[0110月2026 13:23:53.823] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[0110月2026 13:23:53.825] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[0110月2026 13:23:53.939] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.21.1/update.json
+[0110月2026 13:23:54.013] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[0110月2026 13:23:54.013] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[0110月2026 13:23:54.500] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:960) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.43.jar%23161!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.43.jar%23161!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.43.jar%23161!/:4.0]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[0110月2026 13:23:54.519] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_tree_veinminer] Starting version check at https://api.modrinth.com/updates/wEhW4ceB/forge_updates.json?neoforge=only
+[0110月2026 13:23:55.223] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture immersiveengineering:block/connector/redstone_switchboard with size 24x24 limits mip level from 4 to 3
+[0110月2026 13:23:55.781] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_tree_veinminer] Found status: OUTDATED Current: 2.0.0 Target: 7.01R2+mod
+[0110月2026 13:23:55.781] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[0110月2026 13:23:55.809] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:960) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.43.jar%23161!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.43.jar%23161!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.43.jar%23161!/:4.0]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[0110月2026 13:23:55.821] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.21.1/changelog.json
+[0110月2026 13:23:55.851] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:960) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-4.0.43.jar%23161!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-4.0.43.jar%23161!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.43.jar%23161!/:4.0]
+Caused by: javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1265) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1274) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1261) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.base/sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1206) ~[?:?]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1156) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1117) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[0110月2026 13:23:55.864] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=neoforge
+[0110月2026 13:23:56.063] [Worker-Main-13/INFO] [sodiumdynamiclights/]: [LambDynLights] Initializing SodiumDynamicLights...
+[0110月2026 13:23:56.093] [Worker-Main-6/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] Initializing client...
+[0110月2026 13:23:56.105] [Worker-Main-12/INFO] [top.leonx.irisveil.IrisVeilCompat/]: HELLO FROM CLIENT SETUP
+[0110月2026 13:23:56.106] [Worker-Main-12/INFO] [top.leonx.irisveil.IrisVeilCompat/]: MINECRAFT NAME >> Trail_Akivili
+[0110月2026 13:23:56.527] [Worker-Main-6/INFO] [org.anti_ad.mc.common.LogBase/]: [libIPN] libIPN - init in Kotlin
+[0110月2026 13:23:56.623] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamic_fps] Found status: UP_TO_DATE Current: 3.11.4 Target: null
+[0110月2026 13:23:56.624] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[0110月2026 13:23:56.888] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[0110月2026 13:24:03.729] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_soul_stripping_catalyst#inventory:
+    minecraft:textures/atlas/blocks.png:createnetherindustry:block/soul_stripping_block
+[0110月2026 13:24:03.730] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_enriched_catalyst#:
+    minecraft:textures/atlas/blocks.png:createnuclear:block/enriched_soul_soil
+    minecraft:textures/atlas/blocks.png:createnuclear:block/enriching/campfire/enriching_flame
+[0110月2026 13:24:03.730] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_transmutation_catalyst#:
+    minecraft:textures/atlas/blocks.png:create_shimmer:fluid/shimmer_flow
+[0110月2026 13:24:03.730] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_enriched_catalyst#inventory:
+    minecraft:textures/atlas/blocks.png:createnuclear:block/enriched_soul_soil
+    minecraft:textures/atlas/blocks.png:createnuclear:block/enriching/campfire/enriching_flame
+[0110月2026 13:24:03.730] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_glooming_catalyst#inventory:
+    minecraft:textures/atlas/blocks.png:twilightforest:block/deadrock
+    minecraft:textures/atlas/blocks.png:create_shimmer:block/ominous_campfire_fire
+[0110月2026 13:24:03.731] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_glooming_catalyst#:
+    minecraft:textures/atlas/blocks.png:twilightforest:block/deadrock
+    minecraft:textures/atlas/blocks.png:create_shimmer:block/ominous_campfire_fire
+[0110月2026 13:24:03.731] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_soul_stripping_catalyst#:
+    minecraft:textures/atlas/blocks.png:createnetherindustry:block/soul_stripping_block
+[0110月2026 13:24:03.731] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model create_connected:fan_transmutation_catalyst#inventory:
+    minecraft:textures/atlas/blocks.png:create_shimmer:fluid/shimmer_flow
+[0110月2026 13:24:04.000] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[0110月2026 13:24:04.022] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:necromancer/skinned_mesh': 5049 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.293] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:necromancer/skinned_mesh': 2073 chars
+[0110月2026 13:24:04.331] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.332] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:blit_screen': 495 chars
+[0110月2026 13:24:04.333] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.333] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:blit_depth': 532 chars
+[0110月2026 13:24:04.396] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:core/blit_screen_effect': 600 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.396] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:core/blit_screen_effect': 543 chars
+[0110月2026 13:24:04.397] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:light/area': 1703 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.400] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:light/area': 14130 chars
+[0110月2026 13:24:04.458] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.459] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:debug/cubemap': 1758 chars
+[0110月2026 13:24:04.459] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:end_sea': 1127 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.461] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:end_sea': 1278 chars
+[0110月2026 13:24:04.473] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:rope/rope': 4214 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.473] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:rope/rope': 1948 chars
+[0110月2026 13:24:04.474] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:quasar/particle_additive': 1985 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.475] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:quasar/particle_additive': 1874 chars
+[0110月2026 13:24:04.476] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:redstone_accumulator/diode': 4070 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.476] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:redstone_accumulator/diode': 3788 chars
+[0110月2026 13:24:04.477] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:debug/shell': 629 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.477] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:debug/shell': 605 chars
+[0110月2026 13:24:04.478] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.478] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:light/directional': 9064 chars
+[0110月2026 13:24:04.497] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:quasar/particle': 1985 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.498] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:quasar/particle': 1898 chars
+[0110月2026 13:24:04.499] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'aeronautics:levitite/levitite': 5585 chars, hasGetVelocity=true, hasOffset=true
+[0110月2026 13:24:04.499] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'aeronautics:levitite/levitite': 3656 chars
+[0110月2026 13:24:04.502] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:spring/spring': 4196 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.502] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:spring/spring': 1972 chars
+[0110月2026 13:24:04.503] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.504] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:core/composite': 783 chars
+[0110月2026 13:24:04.504] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'aeronautics:hot_air_overlay': 1167 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.505] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'aeronautics:hot_air_overlay': 907 chars
+[0110月2026 13:24:04.506] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'aeronautics:burner_flame': 1770 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.506] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'aeronautics:burner_flame': 5298 chars
+[0110月2026 13:24:04.508] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.508] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:core/blur': 937 chars
+[0110月2026 13:24:04.509] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.509] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:core/bloom': 2631 chars
+[0110月2026 13:24:04.510] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.510] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'aeronautics:soft_light': 1108 chars
+[0110月2026 13:24:04.511] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.512] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:debug/array': 539 chars
+[0110月2026 13:24:04.513] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.513] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:core/unblur': 1318 chars
+[0110月2026 13:24:04.514] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:light/point': 1136 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.515] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'veil:light/point': 13059 chars
+[0110月2026 13:24:04.551] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:laser_pointer/lens': 4016 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.552] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:laser_pointer/lens': 4048 chars
+[0110月2026 13:24:04.553] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:laser/laser': 774 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.553] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:laser/laser': 1878 chars
+[0110月2026 13:24:04.554] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'simulated:contraption_diagram/outline_diagram': 610 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.554] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:contraption_diagram/outline_diagram': 5629 chars
+[0110月2026 13:24:04.556] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured vertex source for 'veil:blit_screen': 542 chars, hasGetVelocity=false, hasOffset=false
+[0110月2026 13:24:04.556] [Render thread/INFO] [top.leonx.irisveil.IrisVeilCompat/]: [VeilHook] Captured fragment source for 'simulated:spread_end_sea': 2427 chars
+[0110月2026 13:24:04.564] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[0110月2026 13:24:04.702] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[0110月2026 13:24:04.753] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from moze_intel.projecte.integration.jade.PEJadePlugin
+[0110月2026 13:24:04.755] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[0110月2026 13:24:04.760] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[0110月2026 13:24:04.825] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[0110月2026 13:24:04.836] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[0110月2026 13:24:04.841] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[0110月2026 13:24:04.848] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[0110月2026 13:24:04.854] [Worker-Main-9/INFO] [snownee.jade.Jade/]: Start loading plugin from appeng.integration.modules.jade.JadeModule
+[0110月2026 13:24:04.928] [Worker-Main-15/INFO] [PonderIndex/]: Registering Ponder Scenes took 320.0 ms
+[0110月2026 13:24:04.941] [Worker-Main-15/INFO] [PonderIndex/]: Registering Ponder Tags took 12.56 ms
+[0110月2026 13:24:05.550] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[0110月2026 13:24:05.551] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[0110月2026 13:24:05.653] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Digital Audio (S/PDIF) (High Definition Audio Device)
+[0110月2026 13:24:05.654] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[0110月2026 13:24:05.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[0110月2026 13:24:05.959] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[0110月2026 13:24:05.960] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[0110月2026 13:24:05.964] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[0110月2026 13:24:05.967] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[0110月2026 13:24:05.986] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[0110月2026 13:24:05.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[0110月2026 13:24:05.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[0110月2026 13:24:05.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[0110月2026 13:24:06.266] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/particles.png-atlas
+[0110月2026 13:24:06.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[0110月2026 13:24:06.274] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[0110月2026 13:24:06.275] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[0110月2026 13:24:06.277] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[0110月2026 13:24:06.380] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[0110月2026 13:24:06.590] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[0110月2026 13:24:06.593] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[0110月2026 13:24:06.601] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[0110月2026 13:24:06.601] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[0110月2026 13:24:06.631] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[0110月2026 13:24:06.644] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[0110月2026 13:24:06.644] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[0110月2026 13:24:06.645] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[0110月2026 13:24:06.646] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[0110月2026 13:24:06.646] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[0110月2026 13:24:06.651] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
+[0110月2026 13:24:06.731] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 106 shader sources in 55.107 ms
+[0110月2026 13:24:06.802] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[0110月2026 13:24:07.179] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[0110月2026 13:24:12.361] [Render thread/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+controllable (version 0.25.4 -> MISSING)
+Things may not work well.
+[0110月2026 13:24:12.511] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[0110月2026 13:24:12.519] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[0110月2026 13:24:12.531] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@64e08192] for runtime resource [create_dragons_plus:runtime]
+[0110月2026 13:24:12.568] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@64e08192 finished after 36 ms
+[0110月2026 13:24:14.026] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_amber_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_amber_fan_dyeing_catalyst
+[0110月2026 13:24:14.072] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_maroon_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_maroon_fan_dyeing_catalyst
+[0110月2026 13:24:14.073] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_mint_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_mint_fan_dyeing_catalyst
+[0110月2026 13:24:14.095] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_coral_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_coral_fan_dyeing_catalyst
+[0110月2026 13:24:14.135] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_forest_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_forest_fan_dyeing_catalyst
+[0110月2026 13:24:14.145] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_olive_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_olive_fan_dyeing_catalyst
+[0110月2026 13:24:14.173] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_verdant_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_verdant_fan_dyeing_catalyst
+[0110月2026 13:24:14.265] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_beige_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_beige_fan_dyeing_catalyst
+[0110月2026 13:24:14.292] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_aqua_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_aqua_fan_dyeing_catalyst
+[0110月2026 13:24:14.315] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_slate_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_slate_fan_dyeing_catalyst
+[0110月2026 13:24:14.347] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_teal_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_teal_fan_dyeing_catalyst
+[0110月2026 13:24:14.355] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_ginger_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_ginger_fan_dyeing_catalyst
+[0110月2026 13:24:14.388] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_tan_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_tan_fan_dyeing_catalyst
+[0110月2026 13:24:14.392] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_indigo_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_indigo_fan_dyeing_catalyst
+[0110月2026 13:24:14.404] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_rose_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_rose_fan_dyeing_catalyst
+[0110月2026 13:24:14.407] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:create_connected:blocks/dye_depot_navy_fan_dyeing_catalyst - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: create_connected:dye_depot_navy_fan_dyeing_catalyst
+[0110月2026 13:24:15.240] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[0110月2026 13:24:15.244] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
+[0110月2026 13:24:15.244] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[0110月2026 13:24:15.244] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
+[0110月2026 13:24:15.244] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
+[0110月2026 13:24:15.245] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[0110月2026 13:24:15.245] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[0110月2026 13:24:15.246] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
+[0110月2026 13:24:15.246] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[0110月2026 13:24:15.246] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[0110月2026 13:24:15.246] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[0110月2026 13:24:15.258] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[0110月2026 13:24:15.258] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[0110月2026 13:24:15.259] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[0110月2026 13:24:15.259] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[0110月2026 13:24:15.259] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
+[0110月2026 13:24:15.260] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[0110月2026 13:24:15.260] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[0110月2026 13:24:15.262] [Worker-Main-2/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[0110月2026 13:24:16.869] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 6829 recipes
+[0110月2026 13:24:17.646] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4233 advancements
+[0110月2026 13:24:17.667] [Render thread/INFO] [Curios API/]: Loaded 11 curio slots
+[0110月2026 13:24:17.673] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
+[0110月2026 13:24:22.598] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[0110月2026 13:24:22.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[0110月2026 13:24:22.925] [Server thread/INFO] [Framework/]: Loading server configs...
+[0110月2026 13:24:23.038] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[0110月2026 13:24:23.885] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[0110月2026 13:24:25.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[0110月2026 13:24:25.127] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / ae2:spatial_storage] using RapierPhysicsPipelineProvider
+[0110月2026 13:24:25.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[0110月2026 13:24:25.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[0110月2026 13:24:25.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[0110月2026 13:24:25.994] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[0110月2026 13:24:26.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 827 ms
+[0110月2026 13:24:26.074] [ProjectE UUID Checker Server/ERROR] [moze_intel.projecte.PECore/FATAL]: Caught exception in UUID Checker thread!
+javax.net.ssl.SSLHandshakeException: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1287) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1164) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1107) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:477) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:448) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1505) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1420) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:190) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[?:?]
+	at TRANSFORMER/projecte@1.1.0/moze_intel.projecte.network.ThreadCheckUUID.run(ThreadCheckUUID.java:35) [%5B等价交换重制版%5D%20ProjectE-1.21.1-PE1.1.0.jar%23247!/:1.1.0]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 18 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1271) ~[?:?]
+	... 18 more
+[0110月2026 13:24:26.284] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 mekanism:free_runners_armored, missing knowledge for {1 mekanism:free_runners=1.0}
+[0110月2026 13:24:26.284] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 127 milliseconds
+[0110月2026 13:24:26.618] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[0110月2026 13:24:26.618] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[0110月2026 13:24:26.996] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[0110月2026 13:24:27.015] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0xf525681b]'
+[0110月2026 13:24:27.041] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[0110月2026 13:24:27.175] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[0110月2026 13:24:27.185] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[0110月2026 13:24:27.959] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[0110月2026 13:24:27.964] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[0110月2026 13:24:27.965] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@4a9f198f] for runtime resource [create_dragons_plus:runtime]
+[0110月2026 13:24:27.978] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@4a9f198f finished after 13 ms
+[0110月2026 13:24:29.281] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Trail_Akivili[local:E:e5b35984] logged in with entity id 8 at (1151.8151448517553, -33.66822555358114, 632.8883995591939)
+[0110月2026 13:24:29.293] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player Trail_Akivili
+[0110月2026 13:24:30.178] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: mekanism:nugget_tin => 1*minecraft:item: mekanism:ingot_tin" ingredient cost: 252 value of result: 256 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: mekanism:ingot_tin
+[0110月2026 13:24:30.179] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_fire_coral => 1*minecraft:item: minecraft:fire_coral) cost 1 but output value is 16
+[0110月2026 13:24:30.179] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_tube_coral_fan => 1*minecraft:item: minecraft:tube_coral_fan) cost 1 but output value is 16
+[0110月2026 13:24:30.180] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_bubble_coral_fan + 200*NSSFake: craftingMapper/256 => 1*minecraft:item: minecraft:bubble_coral_fan) cost 1 but output value is 16
+[0110月2026 13:24:30.180] [Render thread/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Loaded 0 external GUI hints
+[0110月2026 13:24:30.180] [Render thread/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Loaded 803 build-in GUI hints
+[0110月2026 13:24:30.180] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:clay => 4*minecraft:item: minecraft:clay_ball) cost 1 but output value is 16
+[0110月2026 13:24:30.181] [Render thread/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Effective GUI hints after merge: 803
+[0110月2026 13:24:30.183] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: mekanism:nugget_uranium + 8*NSSFake: craftingMapper/80 => 1*minecraft:item: mekanism:ingot_uranium) cost 4095 but output value is 4096
+[0110月2026 13:24:30.186] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: mekanism:nugget_osmium => 1*minecraft:item: mekanism:ingot_osmium" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: mekanism:ingot_osmium
+[0110月2026 13:24:30.189] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: mekanism:nugget_bronze => 1*minecraft:item: mekanism:ingot_bronze" ingredient cost: 153 value of result: 160 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/tin + 3*minecraft:item Tag: c:ingots/copper => 4*minecraft:item: mekanism:ingot_bronze
+[0110月2026 13:24:30.189] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 1*minecraft:item: mekanism:dust_bronze => 1*minecraft:item: mekanism:ingot_bronze" ingredient cost: 103 value of result: 160 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/tin + 3*minecraft:item Tag: c:ingots/copper => 4*minecraft:item: mekanism:ingot_bronze
+[0110月2026 13:24:30.189] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 10*mekanism:chemical: mekanism:tin + 3*minecraft:item: minecraft:copper_ingot => 4*minecraft:item: mekanism:ingot_bronze" ingredient cost: 414 value of result: 160 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/tin + 3*minecraft:item Tag: c:ingots/copper => 4*minecraft:item: mekanism:ingot_bronze
+[0110月2026 13:24:30.191] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_fire_coral_block + 200*NSSFake: craftingMapper/254 => 1*minecraft:item: minecraft:fire_coral_block) cost 4 but output value is 64
+[0110月2026 13:24:30.198] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_bubble_coral => 1*minecraft:item: minecraft:bubble_coral) cost 1 but output value is 16
+[0110月2026 13:24:30.199] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_fire_coral_fan => 1*minecraft:item: minecraft:fire_coral_fan) cost 1 but output value is 16
+[0110月2026 13:24:30.202] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 8*NSSFake: craftingMapper/133 + 1*minecraft:item: mekanism:nugget_lead => 1*minecraft:item: mekanism:ingot_lead" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: mekanism:ingot_lead
+[0110月2026 13:24:30.203] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 8*NSSFake: craftingMapper/48 + 1*minecraft:item: immersiveengineering:nugget_copper => 1*minecraft:item: minecraft:copper_ingot" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/iron => 2*minecraft:item: minecraft:copper_ingot
+[0110月2026 13:24:30.204] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*NSSFake: craftingMapper/48 => 1*minecraft:item: minecraft:copper_ingot" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/iron => 2*minecraft:item: minecraft:copper_ingot
+[0110月2026 13:24:30.208] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_brain_coral => 1*minecraft:item: minecraft:brain_coral) cost 1 but output value is 16
+[0110月2026 13:24:30.209] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:diorite + 1*minecraft:item: minecraft:cobblestone => 2*minecraft:item: minecraft:andesite) cost 17 but output value is 16
+[0110月2026 13:24:30.210] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_bubble_coral_block + 200*NSSFake: craftingMapper/254 => 1*minecraft:item: minecraft:bubble_coral_block) cost 4 but output value is 64
+[0110月2026 13:24:30.212] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*NSSFake: craftingMapper/139 => 1*minecraft:item: minecraft:gravel) cost 1 but output value is 4
+[0110月2026 13:24:30.213] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:cobblestone => 1*minecraft:item: minecraft:gravel) cost 1 but output value is 4
+[0110月2026 13:24:30.214] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_horn_coral_fan => 1*minecraft:item: minecraft:horn_coral_fan) cost 1 but output value is 16
+[0110月2026 13:24:30.214] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: immersiveengineering:nugget_silver => 1*minecraft:item: immersiveengineering:ingot_silver" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: immersiveengineering:ingot_silver
+[0110月2026 13:24:30.216] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:clay_ball + 10*mekanism:chemical: mekanism:bio => 1*minecraft:item: minecraft:slime_ball) cost 50 / 3 but output value is 32
+[0110月2026 13:24:30.216] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 40*mekanism:chemical: mekanism:bio + 1*minecraft:item: minecraft:clay => 4*minecraft:item: minecraft:slime_ball) cost 11 / 3 but output value is 32
+[0110月2026 13:24:30.219] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_tube_coral_block + 200*NSSFake: craftingMapper/254 => 1*minecraft:item: minecraft:tube_coral_block) cost 4 but output value is 64
+[0110月2026 13:24:30.220] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_brain_coral_block + 200*NSSFake: craftingMapper/254 => 1*minecraft:item: minecraft:brain_coral_block) cost 4 but output value is 64
+[0110月2026 13:24:30.227] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*minecraft:item: minecraft:iron_nugget => 1*minecraft:item: minecraft:iron_ingot) cost 252 but output value is 256
+[0110月2026 13:24:30.235] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: immersiveengineering:nugget_uranium + 8*NSSFake: craftingMapper/80 => 1*minecraft:item: immersiveengineering:ingot_uranium) cost 4095 but output value is 4096
+[0110月2026 13:24:30.236] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*minecraft:item: create:zinc_nugget => 1*minecraft:item: create:zinc_ingot) cost 126 but output value is 128
+[0110月2026 13:24:30.238] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_horn_coral_block + 200*NSSFake: craftingMapper/254 => 1*minecraft:item: minecraft:horn_coral_block) cost 4 but output value is 64
+[0110月2026 13:24:30.241] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:dead_tube_coral + 200*NSSFake: craftingMapper/256 => 1*minecraft:item: minecraft:tube_coral) cost 1 but output value is 16
+[0110月2026 13:24:30.243] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 8*NSSFake: craftingMapper/133 + 1*minecraft:item: immersiveengineering:nugget_lead => 1*minecraft:item: immersiveengineering:ingot_lead" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: immersiveengineering:ingot_lead
+[0110月2026 13:24:30.245] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: immersiveengineering:nugget_aluminum => 1*minecraft:item: immersiveengineering:ingot_aluminum" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*minecraft:item Tag: c:ingots/iron => 2*minecraft:item: immersiveengineering:ingot_aluminum
+[0110月2026 13:24:30.245] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:cobweb => 9*minecraft:item: minecraft:string) cost 12 but output value is 12
+[0110月2026 13:24:30.247] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_horn_coral => 1*minecraft:item: minecraft:horn_coral) cost 1 but output value is 16
+[0110月2026 13:24:30.248] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: minecraft:gold_nugget => 1*minecraft:item: minecraft:gold_ingot" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: minecraft:gold_ingot
+[0110月2026 13:24:30.248] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*minecraft:item: minecraft:flint => 1*minecraft:item: minecraft:gunpowder) cost 4 but output value is 192
+[0110月2026 13:24:30.252] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*minecraft:item: immersiveengineering:nugget_nickel => 1*minecraft:item: immersiveengineering:ingot_nickel" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*minecraft:item Tag: c:ingots/iron => 1*minecraft:item: immersiveengineering:ingot_nickel
+[0110月2026 13:24:30.257] [Server thread/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 200*NSSFake: craftingMapper/256 + 1*minecraft:item: minecraft:dead_brain_coral_fan => 1*minecraft:item: minecraft:brain_coral_fan) cost 1 but output value is 16
+[0110月2026 13:24:30.282] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[0110月2026 13:24:30.283] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+[0110月2026 13:24:30.283] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[0110月2026 13:24:30.345] [Server thread/INFO] [moze_intel.projecte.PECore/]: Registered 2697 EMC values. (took 1048 ms)
+[0110月2026 13:24:30.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Trail_Akivili加入了游戏
+[0110月2026 13:24:30.653] [Render thread/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[0110月2026 13:24:30.657] [Render thread/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[0110月2026 13:24:30.710] [Render thread/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[0110月2026 13:24:30.718] [Netty Server IO #2/INFO] [immersiveengineering/]: Recipes for potions: minecraft:long_water_breathing, minecraft:awkward, minecraft:slowness, minecraft:weakness, minecraft:poison, minecraft:long_strength, minecraft:wind_charged, minecraft:strong_leaping, minecraft:long_swiftness, minecraft:leaping, minecraft:strong_slowness, minecraft:slow_falling, minecraft:oozing, minecraft:long_invisibility, minecraft:harming, minecraft:long_poison, minecraft:long_weakness, minecraft:long_slowness, minecraft:strong_strength, minecraft:strong_healing, minecraft:infested, minecraft:long_leaping, minecraft:healing, minecraft:long_night_vision, minecraft:swiftness, minecraft:fire_resistance, minecraft:regeneration, minecraft:invisibility, minecraft:long_slow_falling, minecraft:strong_turtle_master, minecraft:long_fire_resistance, minecraft:long_turtle_master, minecraft:strong_harming, minecraft:long_regeneration, minecraft:night_vision, minecraft:turtle_master, minecraft:strong_regeneration, minecraft:weaving, minecraft:strong_swiftness, minecraft:water_breathing, minecraft:strength, minecraft:water, minecraft:strong_poison
+[0110月2026 13:24:30.985] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[0110月2026 13:24:31.585] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[0110月2026 13:24:31.863] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[0110月2026 13:24:31.877] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI...
+[0110月2026 13:24:31.883] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI took 5.278 milliseconds
+[0110月2026 13:24:31.915] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[0110月2026 13:24:31.943] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft took 27.52 milliseconds
+[0110月2026 13:24:31.961] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 45.49 milliseconds
+[0110月2026 13:24:31.962] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[0110月2026 13:24:31.971] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 8.183 milliseconds
+[0110月2026 13:24:31.983] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[0110月2026 13:24:32.070] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3085ms or 61 ticks behind
+[0110月2026 13:24:32.863] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 879.7 milliseconds
+[0110月2026 13:24:32.880] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: mekanism:jei_plugin took 16.88 milliseconds
+[0110月2026 13:24:32.881] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 898.4 milliseconds
+[0110月2026 13:24:32.882] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[0110月2026 13:24:32.897] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering extra ingredients: create:jei_plugin took 13.04 milliseconds
+[0110月2026 13:24:32.897] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 14.65 milliseconds
+[0110月2026 13:24:32.899] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[0110月2026 13:24:32.958] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: mekanism:jei_plugin took 58.20 milliseconds
+[0110月2026 13:24:32.982] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: projecte:main took 23.92 milliseconds
+[0110月2026 13:24:32.993] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 94.39 milliseconds
+[0110月2026 13:24:33.089] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[0110月2026 13:24:33.093] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 2.864 milliseconds
+[0110月2026 13:24:33.190] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search...
+[0110月2026 13:24:33.192] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search took 1.629 milliseconds
+[0110月2026 13:24:33.197] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[0110月2026 13:24:33.297] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 99.94 milliseconds
+[0110月2026 13:24:33.590] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 292.3 milliseconds
+[0110月2026 13:24:33.618] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: projecte:main took 26.94 milliseconds
+[0110月2026 13:24:33.632] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanismgenerators:jei_plugin took 13.60 milliseconds
+[0110月2026 13:24:33.677] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create_new_age:jei_plugin took 45.22 milliseconds
+[0110月2026 13:24:33.760] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: immersiveengineering:main took 82.64 milliseconds
+[0110月2026 13:24:33.963] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 201.7 milliseconds
+[0110月2026 13:24:34.010] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create_dragons_plus:jei_plugin took 47.04 milliseconds
+[0110月2026 13:24:34.029] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create_enchantment_industry:jei took 18.55 milliseconds
+[0110月2026 13:24:34.033] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 836.0 milliseconds
+[0110月2026 13:24:34.038] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[0110月2026 13:24:34.051] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:minecraft took 12.90 milliseconds
+[0110月2026 13:24:34.052] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 14.24 milliseconds
+[0110月2026 13:24:34.057] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[0110月2026 13:24:34.069] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 11.55 milliseconds
+[0110月2026 13:24:34.070] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[0110月2026 13:24:34.222] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 151.9 milliseconds
+[0110月2026 13:24:34.230] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[0110月2026 13:24:34.233] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 2.864 milliseconds
+[0110月2026 13:24:34.239] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[0110月2026 13:24:35.381] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 1.142 seconds
+[0110月2026 13:24:35.531] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 149.4 milliseconds
+[0110月2026 13:24:35.568] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: projecte:main took 37.08 milliseconds
+[0110月2026 13:24:35.585] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanismgenerators:jei_plugin took 11.47 milliseconds
+[0110月2026 13:24:35.588] [Render thread/INFO] [immersiveengineering/]: Adding recipes to JEI!!
+[0110月2026 13:24:35.723] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: immersiveengineering:main took 134.3 milliseconds
+[0110月2026 13:24:36.228] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 504.7 milliseconds
+[0110月2026 13:24:36.390] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_dragons_plus:jei_plugin took 160.5 milliseconds
+[0110月2026 13:24:36.533] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_enchantment_industry:jei took 142.3 milliseconds
+[0110月2026 13:24:36.533] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 2.295 seconds
+[0110月2026 13:24:36.567] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[0110月2026 13:24:36.580] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:minecraft took 12.37 milliseconds
+[0110月2026 13:24:36.602] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 34.58 milliseconds
+[0110月2026 13:24:36.609] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[0110月2026 13:24:36.618] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[0110月2026 13:24:36.633] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:minecraft took 14.16 milliseconds
+[0110月2026 13:24:36.670] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui took 36.92 milliseconds
+[0110月2026 13:24:36.696] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 77.54 milliseconds
+[0110月2026 13:24:36.733] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[0110月2026 13:24:36.739] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[0110月2026 13:24:36.742] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[0110月2026 13:24:36.893] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 151.2 milliseconds
+[0110月2026 13:24:36.894] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[0110月2026 13:24:38.301] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 4504 ingredients
+[0110月2026 13:24:38.328] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 4504 ingredients
+[0110月2026 13:24:38.331] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 1.437 seconds
+[0110月2026 13:24:38.827] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 2.093 seconds
+[0110月2026 13:24:38.828] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 2.095 seconds
+[0110月2026 13:24:38.832] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 2.222 seconds
+[0110月2026 13:24:38.833] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[0110月2026 13:24:38.834] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.541 milliseconds
+[0110月2026 13:24:38.835] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 6.972 seconds
+[0110月2026 13:24:38.899] [Render thread/INFO] [snownee.jade.Jade/]: Received config from the server: 
+[0110月2026 13:24:38.917] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1199 advancements
+[0110月2026 13:24:40.335] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[0110月2026 13:25:21.186] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0110月2026 13:25:21.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:25:21.329] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:25:21.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:25:21.405] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:25:21.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:25:21.406] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:25:21.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:25:21.407] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:25:26.935] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0110月2026 13:25:27.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:25:27.043] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:25:27.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:25:27.070] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:25:27.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:25:27.070] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:25:27.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:25:27.071] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:25:38.597] [Render thread/INFO] [Sodium/]: Flushed changes to Minecraft configuration
+[0110月2026 13:25:38.601] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[0110月2026 13:25:38.633] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[0110月2026 13:29:42.126] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:29:42.155] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:29:42.155] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:29:42.155] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:32:10.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送530个实体至Trail_Akivili]
+[0110月2026 13:32:10.622] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送530个实体至Trail_Akivili
+[0110月2026 13:32:23.088] [Render thread/WARN] [Sodium-VertexConsumerTracker/]: Class com.mojang.blaze3d.vertex.VertexMultiConsumer$Double does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[0110月2026 13:32:49.436] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[0110月2026 13:32:49.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:32:49.559] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:32:49.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:32:49.610] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:32:49.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:32:49.611] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:32:49.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:32:49.611] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:33:25.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送98个实体至Trail_Akivili]
+[0110月2026 13:33:25.424] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送98个实体至Trail_Akivili
+[0110月2026 13:33:38.234] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 将怀表模式设为: 加速时间流逝
+[0110月2026 13:34:42.546] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:34:42.570] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:34:42.570] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:34:42.571] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:37:02.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送167个实体至Trail_Akivili]
+[0110月2026 13:37:02.441] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送167个实体至Trail_Akivili
+[0110月2026 13:37:15.704] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[0110月2026 13:39:14.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送1075个实体至Trail_Akivili]
+[0110月2026 13:39:14.194] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送1075个实体至Trail_Akivili
+[0110月2026 13:39:31.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送20个实体至Trail_Akivili]
+[0110月2026 13:39:31.901] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送20个实体至Trail_Akivili
+[0110月2026 13:39:44.588] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
+[0110月2026 13:39:44.654] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
+[0110月2026 13:39:44.654] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[0110月2026 13:39:44.654] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
+[0110月2026 13:40:31.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送211个实体至Trail_Akivili]
+[0110月2026 13:40:31.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送211个实体至Trail_Akivili
+[0110月2026 13:40:34.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Trail_Akivili: 已传送46个实体至Trail_Akivili]
+[0110月2026 13:40:34.032] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已传送46个实体至Trail_Akivili
+[0110月2026 13:42:37.705] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Added minecraft:calcite to veinminer blocks
+[0110月2026 13:42:40.609] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1218 advancements
+[0110月2026 13:43:04.186] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Added create:limestone to veinminer blocks
+[0110月2026 13:43:44.216] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4881ms or 97 ticks behind
